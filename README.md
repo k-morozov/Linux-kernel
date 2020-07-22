@@ -1,4 +1,4 @@
-# Linux-kernel
+# Linux-module
 
 my attempts to write modules for the Linux kernel...
 
