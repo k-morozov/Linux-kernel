@@ -19,4 +19,7 @@ ls -la /dev/chrdrv
 sudo insmod chrdev.ko
 cat /proc/modules | grep chrdev
 echo "test!" > /dev/chrdrv
+
+sudo rm /dev/chrdrv
+sudo rmmod chrdev
 ````
